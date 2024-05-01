@@ -6,7 +6,8 @@
 		"dev": "next dev",
 		"export": "next-export",
 		"start": "next start",
-		"lint": "next lint"
+		"lint": "next lint",
+		"build": "next build"
 	},
 	"dependencies": {
 		"firebase": "^9.10.0",
