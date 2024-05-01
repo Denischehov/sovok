@@ -18,7 +18,7 @@ export default function Presentation() {
 			exit={{ opacity: 1 }}
 			className=' absolute top-0 left-0 w-full h-full  lg:px-48 px-16'
 		>
-			<div className='text-center my-32  '>
+			<div className='text-center my-32 lg:my-32 md:my-48 sm:my-72  '>
 				<h2 className='border-2 rounded-xl p-1 text-3xl text-blue-200 border-blue-400'>
 					Возражения
 				</h2>
@@ -56,10 +56,9 @@ export default function Presentation() {
 											нравится переплачивать, верно?(без паузы) Именно поэтому,
 											специально для таких Клиентов как Вы, Банк и сделал
 											нулевую переплату по спецпредложению - в нашем Банке
-											действует программа финансовой защиты с возможностью
-											накопления, что позволяет вернуть проценты в конце срока
-											кредитования, при выполнении нескольких условий. Как Вам
-											такое предложение?
+											действует программа вернётся больше что позволяет вернуть
+											проценты в конце срока кредитования, при выполнении
+											нескольких условий. Как Вам такое предложение?
 										</p>
 										<p className='border-y-2 rounded-lg border-violet-300 py-2 my-1'>
 											<a className='text-rose-100 my-2'>3. </a>Да, временами мы
@@ -98,9 +97,9 @@ export default function Presentation() {
 											дополнительные наличные, можно рассмотреть вариант
 											погашения действующего кредита в другом Банке за счет
 											оформления в нашем, тем более в нашем Банке действует
-											программа финансовой защиты с возможностью накопления, что
-											позволяет вернуть проценты в конце срока кредитования, при
-											выполнении нескольких условий. Как Вам такое предложение?
+											программа вернётся больше, что позволяет вернуть проценты
+											в конце срока кредитования, при выполнении нескольких
+											условий. Как Вам такое предложение?
 											<p className='border-y-2 rounded-lg border-violet-300 py-2 my-1'>
 												<a className='text-rose-100 my-2'>3. </a>И.О., сейчас
 												действительно почти у всех есть действующие кредиты тем
@@ -144,10 +143,9 @@ export default function Presentation() {
 												А под 0% взяли бы?(без паузы) специально для таких
 												Клиентов как Вы, Банк и сделал нулевую переплату по
 												спецпредложению - в нашем Банке действует программа
-												финансовой защиты с возможностью накопления, что
-												позволяет вернуть проценты в конце срока кредитования,
-												при выполнении нескольких условий. Как Вам такое
-												предложение?
+												вернётся больше, что позволяет вернуть проценты в конце
+												срока кредитования, при выполнении нескольких условий.
+												Как Вам такое предложение?
 											</p>
 											<p className='border-y-2 rounded-lg border-violet-300 py-2 my-1'>
 												<a className='text-rose-100 my-2'>3. </a>Замечательно,
@@ -186,11 +184,10 @@ export default function Presentation() {
 											<p className='my-2 border-y-2 rounded-lg border-violet-300 py-2'>
 												<a className='text-rose-100 my-2 '>2.</a>И.О., вопрос
 												цены действительно важен именно поэтому хочу обратить
-												внимание, что в нашем Банке действует программа
-												финансовой защиты с возможностью накопления, что
-												позволяет вернуть проценты в конце срока кредитования,
-												при выполнении нескольких условий. Согласитесь, выгодное
-												предложение?
+												внимание, что в нашем Банке действует программа вернётся
+												больше, что позволяет вернуть проценты в конце срока
+												кредитования, при выполнении нескольких условий.
+												Согласитесь, выгодное предложение?
 											</p>
 											<p className='border-y-2 rounded-lg border-violet-300 py-2 my-1'>
 												<a className='text-rose-100 my-2'>3. </a>Согласна, что
@@ -547,6 +544,39 @@ export default function Presentation() {
 					)} */}
 				</div>
 			</div>
+			<footer className=' mt-6  border-2 rounded-xl border-blue-400 text-center p-3'>
+				<p>
+					Разработчик: Иван Дмитриевич. Контакты:
+					<a
+						className='hover:text-blue-300 duration-300 px-2'
+						href='https://t.me/Freak_3112'
+						target='_blank'
+						rel='noreferrer'
+					>
+						Telegram
+					</a>
+					<a
+						className='hover:text-blue-300 duration-300'
+						href='https://vk.com/fckallworldexpectyou'
+						target='_blank'
+						rel='noreferrer'
+					>
+						Вконтакте
+					</a>
+					<a
+						className='hover:text-blue-300 duration-300 px-2'
+						target='_blank'
+						rel='noreferrer'
+						href='https://mail.google.com/mail/u/1/#inbox?compose=CllgCJvnrFxthbvVSqjmbwKlLVMNgjbQCCShwHPKXZTCSLLhsvlmgWrsmCFSzjZPlgLGvThchqB'
+					>
+						Написать на почту
+					</a>
+					Также вы можете поддержать разработку сайта: По номеру карты Cбербанк:
+					2202205025089332
+					<br />
+					Тинькофф: 5536914119311334
+				</p>
+			</footer>
 		</m.main>
 	)
 }

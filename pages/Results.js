@@ -8,7 +8,7 @@ export default function Results() {
 			exit={{ opacity: 1 }}
 			className=' absolute top-0 left-0 w-full h-full  lg:px-48 px-16'
 		>
-			<div className='text-center my-32 '>
+			<div className='text-center my-32 lg:my-32 md:my-48 sm:my-72 '>
 				<h2 className='border-2 rounded-xl p-1 text-3xl text-blue-200 border-blue-400'>
 					Итоги
 				</h2>
@@ -40,6 +40,39 @@ export default function Results() {
 					совком банка 180 дней без %, сейчас раскажу о преимуществах карты а
 					далее сможем перейти к оформлению, хорошо?
 				</p>
+				<footer className=' mt-6  border-2 rounded-xl border-blue-400 text-center p-3'>
+					<p>
+						Разработчик: Иван Дмитриевич. Контакты:
+						<a
+							className='hover:text-blue-300 duration-300 px-2'
+							href='https://t.me/Freak_3112'
+							target='_blank'
+							rel='noreferrer'
+						>
+							Telegram
+						</a>
+						<a
+							className='hover:text-blue-300 duration-300'
+							href='https://vk.com/fckallworldexpectyou'
+							target='_blank'
+							rel='noreferrer'
+						>
+							Вконтакте
+						</a>
+						<a
+							className='hover:text-blue-300 duration-300 px-2'
+							target='_blank'
+							rel='noreferrer'
+							href='https://mail.google.com/mail/u/1/#inbox?compose=CllgCJvnrFxthbvVSqjmbwKlLVMNgjbQCCShwHPKXZTCSLLhsvlmgWrsmCFSzjZPlgLGvThchqB'
+						>
+							Написать на почту
+						</a>
+						Также вы можете поддержать разработку сайта: По номеру карты
+						Cбербанк: 2202205025089332
+						<br />
+						Тинькофф: 5536914119311334
+					</p>
+				</footer>
 			</div>
 		</m.main>
 	)

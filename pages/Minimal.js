@@ -21,15 +21,15 @@ export default function Minimal() {
 			exit={{ opacity: 1 }}
 			className=' absolute top-0 left-0 w-full h-full  lg:px-48 px-16'
 		>
-			<div className='text-center my-32 '>
-				<h2 className='border-2 rounded-xl p-1 text-3xl text-blue-300 border-blue-400'>
+			<div className='text-center my-32 lg:my-32 md:my-48 sm:my-72 '>
+				<h2 className='border-2 rounded-xl p-1 text-3xl text-blue-300 border-blue-400 '>
 					Минимальные требования на ДК или карту халва
 				</h2>
 				<p className='border-2 my-3 border-blue-400 rounded-xl text-xl'>
 					Назовите пожалуйста ваше Имя, Фамилию, Отчество и дату рождения.
 				</p>
 				<p className={`text-blue-300 content ${show ? 'show' : ''}`}></p>
-				<p className='border-2 my-3 border-blue-400 rounded-xl text-xl'>
+				<p className='border-2 my-3 border-blue-400 rounded-xl text-xl hover:text-blue-200 duration-300'>
 					<button className='' onClick={() => setShow(!show)}>
 						Вы являетесь гражданином Российской федерации, верно?
 					</button>
@@ -38,7 +38,7 @@ export default function Minimal() {
 					</p>
 				</p>
 
-				<p className='border-2 my-3 border-blue-400 rounded-xl text-xl'>
+				<p className='border-2 my-3 border-blue-400 rounded-xl text-xl hover:text-blue-200 duration-300'>
 					<button onClick={() => setShow1(!show1)}>
 						Скажите пожалуйста, имеется ли у вас инвалидность? Если да, то какой
 						группы?{' '}
@@ -51,7 +51,7 @@ export default function Minimal() {
 						который интересует клиента (доставка недоступна)
 					</p>
 				</p>
-				<p className='border-2 my-3 border-blue-400 rounded-xl text-xl'>
+				<p className='border-2 my-3 border-blue-400 rounded-xl text-xl hover:text-blue-200 duration-300'>
 					<button className='' onClick={() => setShow2(!show2)}>
 						У вас постоянная регистрация?
 					</button>
@@ -61,7 +61,7 @@ export default function Minimal() {
 						Презентуй дебетовую халву
 					</p>
 				</p>
-				<p className='border-2 my-3 border-blue-400 rounded-xl text-xl'>
+				<p className='border-2 my-3 border-blue-400 rounded-xl text-xl hover:text-blue-200 duration-300'>
 					<button onClick={() => setShow3(!show3)}>
 						Уточните пожалуйста регион вашей регистрации
 					</button>
@@ -81,7 +81,7 @@ export default function Minimal() {
 						Оформление в офисе банка, без БКИ.
 					</p>
 				</p>
-				<p className='border-2 my-3 border-blue-400 rounded-xl text-xl'>
+				<p className='border-2 my-3 border-blue-400 rounded-xl text-xl hover:text-blue-200 duration-300'>
 					<button onClick={() => setShow4(!show4)}>
 						Постоянная регистрация/прописка не менялись за последние 4 месяца?
 					</button>
@@ -94,7 +94,7 @@ export default function Minimal() {
 						<br />7 дней и более: Доступна халва без лимита.
 					</p>
 				</p>
-				<p className='border-2 my-3 border-blue-400 rounded-xl text-xl'>
+				<p className='border-2 my-3 border-blue-400 rounded-xl text-xl hover:text-blue-200 duration-300'>
 					<button onClick={() => setShow5(!show5)}>
 						И.О, в каком городе вы сейчас проживаете?{' '}
 					</button>
@@ -108,7 +108,7 @@ export default function Minimal() {
 				<h2 className='border-2 rounded-xl p-1 text-3xl text-blue-300 border-blue-400'>
 					Работа
 				</h2>
-				<p className='border-2 my-3 border-blue-400 rounded-xl text-xl'>
+				<p className='border-2 my-3 border-blue-400 rounded-xl text-xl hover:text-blue-200 duration-300'>
 					<button onClick={() => setShow6(!show6)}>
 						{' '}
 						И.О, скажите, вы ОФИЦИАЛЬНО трудоустроены?{' '}
@@ -123,7 +123,7 @@ export default function Minimal() {
 						переводом)
 					</p>
 				</p>
-				<p className='border-2 my-3 border-blue-400 rounded-xl text-xl'>
+				<p className='border-2 my-3 border-blue-400 rounded-xl text-xl hover:text-blue-200 duration-300'>
 					<button onClick={() => setShow7(!show7)}>
 						{' '}
 						По трудовому договору работаете?{' '}
@@ -141,7 +141,7 @@ export default function Minimal() {
 						Нет хотя бы один вопрос - спроси про ип или самозанятость
 					</p>
 				</p>
-				<p className='border-2 my-3 border-blue-400 rounded-xl text-xl'>
+				<p className='border-2 my-3 border-blue-400 rounded-xl text-xl hover:text-blue-200 duration-300'>
 					<button onClick={() => setShow8(!show8)}>
 						{' '}
 						Может зарегистрированы как ип или самозанятый?{' '}
@@ -160,7 +160,7 @@ export default function Minimal() {
 					<button> На пенсии состоите? </button>
 					<p className='text-blue-300'>Состоит - с чем связана пенсия?</p>
 				</p>
-				<p className='border-2 my-3 border-blue-400 rounded-xl text-xl'>
+				<p className='border-2 my-3 border-blue-400 rounded-xl text-xl hover:text-blue-200 duration-300'>
 					<button onClick={() => setShow9(!show9)}>
 						Декрет официальный (находится в штате организации){' '}
 					</button>
@@ -171,7 +171,7 @@ export default function Minimal() {
 						халва без лимита
 					</p>
 				</p>
-				<p className='border-2 my-3 border-blue-400 rounded-xl text-xl'>
+				<p className='border-2 my-3 border-blue-400 rounded-xl text-xl hover:text-blue-200 duration-300'>
 					<button onClick={() => setShow10(!show10)}>
 						{' '}
 						Работает неофициально{' '}
@@ -182,6 +182,49 @@ export default function Minimal() {
 						На себя - Без бки ДКПЗН халва без лимита
 					</p>
 				</p>
+				<p className='border-2 my-3 border-blue-400 rounded-xl text-xl'>
+					<a
+						target='_blank'
+						rel='noreferrer'
+						href='https://onedrive.live.com/edit.aspx?resid=AA41D7FA206E08E!119&cid=aa41d7fa206e08e&CT=1713771901703&OR=ItemsView'
+						className='hover:text-blue-200 duration-300'
+					>
+						Далее в Свод таблицу
+					</a>{' '}
+				</p>
+				<footer className=' mt-6  border-2 rounded-xl border-blue-400 text-center p-3'>
+					<p>
+						Разработчик: Иван Дмитриевич. Контакты:
+						<a
+							className='hover:text-blue-300 duration-300 px-2'
+							href='https://t.me/Freak_3112'
+							target='_blank'
+							rel='noreferrer'
+						>
+							Telegram
+						</a>
+						<a
+							className='hover:text-blue-300 duration-300'
+							href='https://vk.com/fckallworldexpectyou'
+							target='_blank'
+							rel='noreferrer'
+						>
+							Вконтакте
+						</a>
+						<a
+							className='hover:text-blue-300 duration-300 px-2'
+							target='_blank'
+							rel='noreferrer'
+							href='https://mail.google.com/mail/u/1/#inbox?compose=CllgCJvnrFxthbvVSqjmbwKlLVMNgjbQCCShwHPKXZTCSLLhsvlmgWrsmCFSzjZPlgLGvThchqB'
+						>
+							Написать на почту
+						</a>
+						Также вы можете поддержать разработку сайта: По номеру карты
+						Cбербанк: 2202205025089332
+						<br />
+						Тинькофф: 5536914119311334
+					</p>
+				</footer>
 			</div>
 		</m.main>
 	)
