@@ -6,7 +6,7 @@ export default function Navbar() {
 				<Link href={'/Ident'}>
 					<button
 						className='transition border-2 border-indigo-900 rounded-xl p-3
-					ease-in-out delay-150 bg-blue-700 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-700 duration-300 lg:h-18 lg:p-2 md:h-18 md:p-2 sm:h-18 sm:p-2 xl:h-18 xl:p-2'
+					ease-in-out delay-150 bg-violet-700 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-900 duration-300 lg:h-18 lg:p-2 md:h-18 md:p-2 sm:h-18 sm:p-2 xl:h-18 xl:p-2'
 					>
 						Идентификация
 					</button>
@@ -15,7 +15,7 @@ export default function Navbar() {
 				<Link href={'/Minimal'}>
 					<button
 						className='transition border-indigo-900 border-2 rounded-xl p-3
-					ease-in-out delay-150 bg-blue-700 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-700 duration-300 lg:h-18 lg:p-2 md:h-18 md:p-2 sm:h-18 sm:p-2 xl:h-18 xl:p-2'
+					ease-in-out delay-150 bg-violet-700 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-900 duration-300 lg:h-18 lg:p-2 md:h-18 md:p-2 sm:h-18 sm:p-2 xl:h-18 xl:p-2'
 					>
 						Минимальные требования
 					</button>
@@ -24,7 +24,7 @@ export default function Navbar() {
 				<Link href={'/'}>
 					<button
 						className='transition border-indigo-900 border-2 rounded-xl p-3
-					ease-in-out delay-150 bg-blue-700 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-700 duration-300 lg:h-18 lg:p-2 md:h-18 md:p-2 sm:h-18 sm:p-2 xl:h-18 xl:p-2'
+					ease-in-out delay-150 bg-violet-700 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-900 duration-300 lg:h-18 lg:p-2 md:h-18 md:p-2 sm:h-18 sm:p-2 xl:h-18 xl:p-2'
 					>
 						Бки
 					</button>
@@ -33,7 +33,7 @@ export default function Navbar() {
 				<Link href={'/Presentation'}>
 					<button
 						className='transition border-indigo-900 border-2 rounded-xl p-3
-					ease-in-out delay-150 bg-blue-700 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-700 duration-300 lg:h-18 lg:p-2 md:h-18 md:p-2 sm:h-18 sm:p-2 xl:h-18 xl:p-2'
+					ease-in-out delay-150 bg-violet-700 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-900 duration-300 lg:h-18 lg:p-2 md:h-18 md:p-2 sm:h-18 sm:p-2 xl:h-18 xl:p-2'
 					>
 						Презентация
 					</button>
@@ -41,7 +41,7 @@ export default function Navbar() {
 				<Link href={'/Fis'}>
 					<button
 						className='transition border-indigo-900 border-2 rounded-xl p-3
-					ease-in-out delay-150 bg-blue-700 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-700 duration-300 lg:h-18 lg:p-2 md:h-18 md:p-2 sm:h-18 sm:p-2 xl:h-18 xl:p-2'
+					ease-in-out delay-150 bg-violet-700 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-900 duration-300 lg:h-18 lg:p-2 md:h-18 md:p-2 sm:h-18 sm:p-2 xl:h-18 xl:p-2'
 					>
 						ФИС
 					</button>
@@ -50,7 +50,7 @@ export default function Navbar() {
 				<Link href={'/Results'}>
 					<button
 						className='transition border-indigo-900 border-2 rounded-xl p-3
-					ease-in-out delay-150 bg-blue-700 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-700 duration-300 lg:h-18 lg:p-2 md:h-18 md:p-2 sm:h-18 sm:p-2 xl:h-18 xl:p-2'
+					ease-in-out delay-150 bg-violet-700 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-900 duration-300 lg:h-18 lg:p-2 md:h-18 md:p-2 sm:h-18 sm:p-2 xl:h-18 xl:p-2'
 					>
 						Итоги
 					</button>
@@ -59,7 +59,7 @@ export default function Navbar() {
 				<Link href={'/Term'}>
 					<button
 						className='transition border-indigo-900 border-2 rounded-xl p-3
-					ease-in-out delay-150 bg-blue-700 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-700 duration-300 lg:h-18 lg:p-2 md:h-18 md:p-2 sm:h-18 sm:p-2 xl:h-18 xl:p-2'
+					ease-in-out delay-150 bg-violet-700 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-900 duration-300 lg:h-18 lg:p-2 md:h-18 md:p-2 sm:h-18 sm:p-2 xl:h-18 xl:p-2'
 					>
 						Рефинансирование
 					</button>
@@ -67,7 +67,7 @@ export default function Navbar() {
 				<Link href={'/objections'}>
 					<button
 						className='transition border-indigo-900 border-2 rounded-xl p-3
-					ease-in-out delay-150 bg-blue-700 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-700 duration-300 lg:h-18 lg:p-2 md:h-18 md:p-2 sm:h-18 sm:p-2 xl:h-18 xl:p-2'
+					ease-in-out delay-150 bg-violet-700 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-900 duration-300 lg:h-18 lg:p-2 md:h-18 md:p-2 sm:h-18 sm:p-2 xl:h-18 xl:p-2'
 					>
 						Возражения
 					</button>

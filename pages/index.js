@@ -22,11 +22,11 @@ export default function Home() {
 			</Head>
 			<main>
 				<div className='text-center my-32 lg:my-20 md:my-36 sm:my-52 '>
-					<h2 className='border-2 rounded-xl p-1 text-3xl text-blue-200 border-blue-400'>
+					<h2 className='border-[1px] p-2 hover:text-indigo-200 my-3  hover:border-x-indigo-200 hover:border-y-indigo-400 border-y-gray-500 border-x-gray-200 rounded-xl p-1 text-3xl text-blue-200 border-blue-400'>
 						БКИ
 					</h2>
-					<p className='border-2 my-3 border-blue-400 rounded-xl text-xl'>
-						<h2 className='text-2xl text-blue-300'>
+					<p className='border-[1px] p-2 hover:text-indigo-200 my-3  hover:border-x-indigo-200 hover:border-y-indigo-400 border-y-gray-500 border-x-gray-200 my-3 duration-300 rounded-xl text-xl'>
+						<h2 className='text-2xl text-indigo-300'>
 							Запрос в бки карта халва с лимитом/ДК
 						</h2>
 						Какая сумма вас интересует?{' '}
@@ -40,8 +40,8 @@ export default function Home() {
 						обработку персональных данных?
 					</p>
 
-					<p className='border-2 my-3 border-blue-400 rounded-xl text-xl'>
-						<h2 className='text-3xl text-blue-300'>Карта халва без лимита</h2>
+					<p className='border-[1px] p-2 hover:text-indigo-200 my-3  hover:border-x-indigo-200 hover:border-y-indigo-400 border-y-gray-500 border-x-gray-200 my-3 duration-300 rounded-xl text-xl'>
+						<h2 className='text-3xl text-indigo-300'>Карта халва без лимита</h2>
 						И.О., Вам доступно предложение карты халва без лимита с возможностью
 						получить лимит в будущем. Эта карта с бесплатным обслуживанием, на
 						ней Вы сможете размещать и тратить собственные средства, а при
@@ -53,8 +53,8 @@ export default function Home() {
 						паспорт. В какой день вам удобнее?
 					</p>
 
-					<p className='border-2 my-3 border-blue-400 rounded-xl text-xl'>
-						<h2 className='text-3xl text-blue-300'>
+					<p className='border-[1px] p-2 hover:text-indigo-200 my-3  hover:border-x-indigo-200 hover:border-y-indigo-400 border-y-gray-500 border-x-gray-200 my-3 duration-300 rounded-xl text-xl'>
+						<h2 className='text-3xl text-indigo-300'>
 							Если у клиента нет паспорта под рукой{' '}
 						</h2>
 						<p className='text-blue-200 text-2xl'>
@@ -69,7 +69,7 @@ export default function Home() {
 							Нет фото и гос услуг сообщи о необходимости подготовить документы
 							и договорись о перезвоне
 						</p>
-						<h2 className='text-3xl text-blue-300'>
+						<h2 className='text-3xl text-indigo-300'>
 							Исключение: тип карточки Клиент или Заявитель фронт офис.
 						</h2>
 						С последнего обращения в Банк паспортные данные не менялись?
@@ -79,25 +79,25 @@ export default function Home() {
 						<a className='text-blue-200'> Менялись - </a>
 						Сообщи о необходимости подготовить паспорт и договорись о перезвоне.
 					</p>
-					<p className='border-2 my-3 border-blue-400 rounded-xl text-xl'>
-						<h2 className='text-3xl text-blue-300'>
+					<p className='border-[1px] p-2 hover:text-indigo-200 my-3  hover:border-x-indigo-200 hover:border-y-indigo-400 border-y-gray-500 border-x-gray-200 my-3 duration-300 rounded-xl text-xl'>
+						<h2 className='text-3xl text-indigo-300'>
 							Кредитная карта <p className='text-red-300'>Без БКИ</p>
 						</h2>
 					</p>
-					<p className='border-2 my-3 border-blue-400 rounded-xl text-xl'>
+					<p className='border-[1px] p-2 hover:text-indigo-200 my-3  hover:border-x-indigo-200 hover:border-y-indigo-400 border-y-gray-500 border-x-gray-200 my-3 duration-300 rounded-xl text-xl'>
 						<a
 							href='https://minerva.sovcombank.ru/content/space/52/article/21599/page/3?query=FIS'
 							target='_blank'
 							rel='noreferrer'
-							className='text-3xl text-blue-300'
+							className='text-3xl text-indigo-300'
 						>
 							Решения по БКИ
 						</a>
 					</p>
 					<button
 						onClick={() => setShowModal(true)}
-						className='transition border-2 border-indigo-900 rounded-xl p-5
-					ease-in-out delay-150 bg-blue-700 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-700 duration-300 relative hover:scale-y-110'
+						className=' border-2 border-indigo-900 hover:border-violet-700 my-3 rounded-xl p-2
+					ease-in-out delay-150 bg-violet-700 hover:-translate-y-1 hover:scale-110  relative hover:scale-y-110 hover:bg-violet-900 duration-300'
 					>
 						Возражения
 					</button>
@@ -106,33 +106,33 @@ export default function Home() {
 					<div className=' text-gray-900 text-2xl grid col-auto grid-cols-'>
 						<p>
 							<button
-								className='text-blue-700 mx-2'
+								className='text-indigo-500  mx-2'
 								onClick={() => setShow(!show)}
 							>
 								Опасаюсь называть паспортные данные по телефону
 							</button>
-							<p className={`text-blue-200 content ${show ? 'show' : ''}`}>
-								<p className='border-y-2 border-violet-300 py-2 my-2'>
+							<p className={`text-indigo-300 content ${show ? 'show' : ''}`}>
+								<p className='border-y-[1px] border-violet-300 py-2 my-2'>
 									1. Хорошо, что обращаете на это внимание и проявляете
 									бдительность. Для подтверждения того, что я действительно из
 									Банка, я направлю Вам СМС сообщение с официального номера
 									Совкомбанка о подтверждении данных. Это сможет убедить Вас в
 									том, что я из Банка?
 								</p>
-								<p className='border-y-2 border-violet-300 py-2 my-2'>
+								<p className='border-y-[1px] border-violet-300 py-2 my-2'>
 									2. Да, действительно в наше время участились случаи
 									мошенничества и тем не менее эти данные позволят нам узнать
 									предварительное решение и подобрать для Вас подходящий
 									продукт. Продолжим?
 								</p>
-								<p className='border-y-2 border-violet-300 py-2 my-2'>
+								<p className='border-y-[1px] border-violet-300 py-2 my-2'>
 									3. И.О, Вы правильно поступаете проявляя бдительность и все же
 									хочу отметить что, Банк запрашивает минимум информации, по
 									которым не возможно ничего оформить, а так же эти данные
 									никакой юридической силы без Вашего присутствия и подписи не
 									несут. Мне удалось развеять ваши опасения?
 								</p>
-								<p className='border-y-2 border-violet-300 py-2 my-2'>
+								<p className='border-y-[1px] border-violet-300 py-2 my-2'>
 									4. Здорово, что проявляете бдительность, действительно мы
 									звоним с разных номеров, в том числе и с мобильных. Вы всегда
 									можете перезвонить на этот номер, и попадете в единый контакт
@@ -145,11 +145,11 @@ export default function Home() {
 					</div>
 				</Modal>
 			</main>
-			<footer className=' mt-6  border-2 rounded-xl border-blue-400 text-center p-3'>
+			<footer className=' mt-6  border-[1px] p-2 hover:text-indigo-200 my-3  hover:border-x-indigo-200 hover:border-y-indigo-400 border-y-gray-500 border-x-gray-200 rounded-xl duration-300 text-center p-3'>
 				<p>
 					Разработчик: Иван Дмитриевич. Контакты:
 					<a
-						className='hover:text-blue-300 duration-300 px-2'
+						className='hover:text-indigo-300 duration-300 px-2'
 						href='https://t.me/Freak_3112'
 						target='_blank'
 						rel='noreferrer'
@@ -157,7 +157,7 @@ export default function Home() {
 						Telegram
 					</a>
 					<a
-						className='hover:text-blue-300 duration-300'
+						className='hover:text-indigo-300 duration-300'
 						href='https://vk.com/fckallworldexpectyou'
 						target='_blank'
 						rel='noreferrer'
@@ -165,7 +165,7 @@ export default function Home() {
 						Вконтакте
 					</a>
 					<a
-						className='hover:text-blue-300 duration-300 px-2'
+						className='hover:text-indigo-300 duration-300 px-2'
 						target='_blank'
 						rel='noreferrer'
 						href='https://mail.google.com/mail/u/1/#inbox?compose=CllgCJvnrFxthbvVSqjmbwKlLVMNgjbQCCShwHPKXZTCSLLhsvlmgWrsmCFSzjZPlgLGvThchqB'

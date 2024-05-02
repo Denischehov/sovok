@@ -19,13 +19,13 @@ export default function Presentation() {
 			className=' absolute top-0 left-0 w-full h-full  lg:px-48 px-16'
 		>
 			<div className='text-center my-32 lg:my-32 md:my-48 sm:my-72  '>
-				<h2 className='border-2 rounded-xl p-1 text-3xl text-blue-200 border-blue-400'>
+				<h2 className='border-[1px] rounded-xl p-1 text-3xl border-indigo-400'>
 					Возражения
 				</h2>
 				<div className='flex flex-col w-10/12 mx-auto my-3'>
 					{' '}
 					<button
-						className='transition border-indigo-900 border-2 rounded-xl p-3 ease-in-out delay-150 bg-blue-700 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-700 duration-300 my-1'
+						className='transition border-indigo-900 border-[1px] rounded-xl p-3 ease-in-out delay-150 bg-violet-700 hover:-translate-y-1 hover:scale-110 hover:bg-violet-900 duration-300 my-1'
 						onClick={() => setShowModal(1)}
 					>
 						ДК
@@ -35,14 +35,14 @@ export default function Presentation() {
 							<div className='text-xl'>
 								<p>
 									<button
-										className='text-blue-300 hover:text-blue-500 duration-300'
+										className='text-indigo-300 hover:indigo-400 duration-300'
 										onClick={() => setShow(!show)}
 									>
 										Просто не надо. Правильно понимаю, обходитесь собственными
 										средствами? Да.
 									</button>
 									<p className={`text-blue-100 content ${show ? 'show' : ''}`}>
-										<p className='border-y-2 rounded-lg border-violet-300 py-2'>
+										<p className='border-y-[1px] rounded-lg border-indigo-400 py-2'>
 											<a className='text-rose-100 my-2'>1. </a>Это здорово, что
 											у Вас получается планировать свой бюджет кроме того хочу
 											отметить, что цены постоянно растут. Поэтому, чтобы потом
@@ -50,7 +50,7 @@ export default function Presentation() {
 											товар по текущим ценнам, я предлагаю Вам рассмотреть наше
 											предложение Что скажете?
 										</p>
-										<p className='my-2 border-y-2 rounded-lg border-violet-300 py-2'>
+										<p className='my-2 border-y-[1px] rounded-lg border-indigo-400 py-2'>
 											<a className='text-rose-100 my-2 '>2.</a>Вижу Вы
 											ответственно подходите к своим финансам И.О., Вам не
 											нравится переплачивать, верно?(без паузы) Именно поэтому,
@@ -60,7 +60,7 @@ export default function Presentation() {
 											проценты в конце срока кредитования, при выполнении
 											нескольких условий. Как Вам такое предложение?
 										</p>
-										<p className='border-y-2 rounded-lg border-violet-300 py-2 my-1'>
+										<p className='border-y-[1px] rounded-lg border-indigo-400 py-2 my-1'>
 											<a className='text-rose-100 my-2'>3. </a>Да, временами мы
 											не задумываемся о крупных планах И все же предлагаю
 											поступить следуещим образом: мы с Вами рассмотрим
@@ -76,14 +76,14 @@ export default function Presentation() {
 								</p>
 
 								<button
-									className='text-blue-300 hover:text-blue-500 duration-300'
+									className='text-indigo-300 hover:indigo-400 duration-300'
 									onClick={() => setShow1(!show1)}
 								>
 									Уже есть кредиты в других Банках
 								</button>
 								<p>
 									<p className={`text-blue-100 content ${show1 ? 'show' : ''}`}>
-										<p className='border-y-2 rounded-lg border-violet-300 py-2'>
+										<p className='border-y-[1px] rounded-lg border-indigo-400 py-2'>
 											<a className='text-rose-100 my-2'>1. </a>Понимаю, чаще
 											наличие кредитов - это финансовая нагрузка вместе с тем я
 											могу предложить Вам альтернативный вариант, он позволит
@@ -91,7 +91,7 @@ export default function Presentation() {
 											работы с Вашим Банком. Таким образом Вы расширите круг
 											своих возможностей. Что скажете?
 										</p>
-										<p className='my-2 border-y-2 rounded-lg border-violet-300 py-2'>
+										<p className='my-2 border-y-[1px] rounded-lg border-indigo-400 py-2'>
 											<a className='text-rose-100 my-2 '>2.</a>Согласен, что
 											иметь несколько кредитов нелегко Если Вам сейчас не нужны
 											дополнительные наличные, можно рассмотреть вариант
@@ -100,7 +100,7 @@ export default function Presentation() {
 											программа вернётся больше, что позволяет вернуть проценты
 											в конце срока кредитования, при выполнении нескольких
 											условий. Как Вам такое предложение?
-											<p className='border-y-2 rounded-lg border-violet-300 py-2 my-1'>
+											<p className='border-y-[1px] rounded-lg border-indigo-400 py-2 my-1'>
 												<a className='text-rose-100 my-2'>3. </a>И.О., сейчас
 												действительно почти у всех есть действующие кредиты тем
 												не менее наличие действующих кредитов не является
@@ -117,7 +117,7 @@ export default function Presentation() {
 									</p>
 
 									<button
-										className='text-blue-300 hover:text-blue-500 duration-300'
+										className='text-indigo-300 hover:indigo-400 duration-300'
 										onClick={() => setShow2(!show2)}
 									>
 										Исчезла необходимость. Правильно понимаю, обошлись без
@@ -127,7 +127,7 @@ export default function Presentation() {
 										<p
 											className={`text-blue-100 content ${show2 ? 'show' : ''}`}
 										>
-											<p className='border-y-2 rounded-lg border-violet-300 py-2'>
+											<p className='border-y-[1px] rounded-lg border-indigo-400 py-2'>
 												<a className='text-rose-100 my-2'>1. </a>Замечательно,
 												что обошлись без заемных средств вместе с тем, И.О.,
 												сейчас Вы откажетесь, а чуть позже оставите заявку на
@@ -137,7 +137,7 @@ export default function Presentation() {
 												возможность осуществить свою очередную мечту Что
 												скажете?
 											</p>
-											<p className='my-2 border-y-2 rounded-lg border-violet-300 py-2'>
+											<p className='my-2 border-y-[1px] rounded-lg border-indigo-400 py-2'>
 												<a className='text-rose-100 my-2 '>2.</a>Отлично, что у
 												вас есть альтернативные варианты в получении суммы И.О.,
 												А под 0% взяли бы?(без паузы) специально для таких
@@ -147,7 +147,7 @@ export default function Presentation() {
 												срока кредитования, при выполнении нескольких условий.
 												Как Вам такое предложение?
 											</p>
-											<p className='border-y-2 rounded-lg border-violet-300 py-2 my-1'>
+											<p className='border-y-[1px] rounded-lg border-indigo-400 py-2 my-1'>
 												<a className='text-rose-100 my-2'>3. </a>Замечательно,
 												что решили свой финансовый вопрос И все же предлагаю
 												поступить следуещим образом: мы с Вами рассмотрим
@@ -163,7 +163,7 @@ export default function Presentation() {
 									</p>
 
 									<button
-										className='text-blue-300 hover:text-blue-500 duration-300'
+										className='text-indigo-300 hover:indigo-400 duration-300'
 										onClick={() => setShow3(!show3)}
 									>
 										Высокий процент
@@ -172,7 +172,7 @@ export default function Presentation() {
 										<p
 											className={`text-blue-100 content ${show3 ? 'show' : ''}`}
 										>
-											<p className='border-y-2 rounded-lg border-violet-300 py-2'>
+											<p className='border-y-[1px] rounded-lg border-indigo-400 py-2'>
 												<a className='text-rose-100 my-2'>1. </a>Хорошо, что
 												обратили внимание на процент, видно что Вы обдуманно
 												подходите к выбору Банка в то же время хочу обратить
@@ -181,7 +181,7 @@ export default function Presentation() {
 												переплата будет значительно ниже. Предлагаю рассмотреть
 												возможность заполнение анкеты. Что скажете?
 											</p>
-											<p className='my-2 border-y-2 rounded-lg border-violet-300 py-2'>
+											<p className='my-2 border-y-[1px] rounded-lg border-indigo-400 py-2'>
 												<a className='text-rose-100 my-2 '>2.</a>И.О., вопрос
 												цены действительно важен именно поэтому хочу обратить
 												внимание, что в нашем Банке действует программа вернётся
@@ -189,7 +189,7 @@ export default function Presentation() {
 												кредитования, при выполнении нескольких условий.
 												Согласитесь, выгодное предложение?
 											</p>
-											<p className='border-y-2 rounded-lg border-violet-300 py-2 my-1'>
+											<p className='border-y-[1px] rounded-lg border-indigo-400 py-2 my-1'>
 												<a className='text-rose-100 my-2'>3. </a>Согласна, что
 												необходимо принимать только взвешанное решение поэтому
 												предлагаю поступить следующим образом: мы с Вами
@@ -207,7 +207,7 @@ export default function Presentation() {
 						</Modal>
 					)}
 					<button
-						className='transition border-indigo-900 border-2 rounded-xl p-3 ease-in-out delay-150 bg-blue-700 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-700 duration-300 my-1'
+						className='transition border-indigo-900 border-[1px] rounded-xl p-3 ease-in-out delay-150 bg-violet-700 hover:-translate-y-1 hover:scale-110 hover:bg-violet-900 duration-300 my-1'
 						onClick={() => setShowModal(2)}
 					>
 						халва
@@ -216,14 +216,14 @@ export default function Presentation() {
 						<Modal isVisible={showModal === 2} onClose={() => setShowModal(0)}>
 							<p className='text-xl'>
 								<button
-									className='text-blue-300 hover:text-blue-500 duration-300'
+									className='text-indigo-300 hover:indigo-400 duration-300'
 									onClick={() => setShow5(!show5)}
 								>
 									Просто не надо. Правильно понимаю, обходитесь собственными
 									средствами? Да.
 								</button>
 								<p className={`text-blue-100 content ${show5 ? 'show' : ''}`}>
-									<p className='border-y-2 rounded-lg border-violet-300 py-2'>
+									<p className='border-y-[1px] rounded-lg border-indigo-400 py-2'>
 										<a className='text-rose-100 my-2'>1. </a> Беспорно радует
 										Ваша финансовая стабильность вместе с тем, я не предлагаю
 										Вам жить в кредит и переплачивать. Наоборот с КР Халва Вы
@@ -232,7 +232,7 @@ export default function Presentation() {
 										возможность оформления карты. При положительном решении
 										начнете пользоваться и будете приятно удивлены.Что скажете?
 									</p>
-									<p className='border-y-2 rounded-lg my-2 border-violet-300 py-2'>
+									<p className='border-y-[1px] rounded-lindigo border-violet-300 py-2'>
 										<a className='text-rose-100 my-2'>2. </a> Здорово, что Вы
 										ответственно подходите к финансовому вопросу И.О., с
 										рассрочкой по карте Халва Вы не будете откладывать покупки!
@@ -242,7 +242,7 @@ export default function Presentation() {
 										планы по текущим ценам и не переплачивать проценты
 										Согласитесь это удобно?
 									</p>
-									<p className='border-y-2 rounded-lg border-violet-300 py-2'>
+									<p className='border-y-[1px] rounded-lg border-indigo-400 py-2'>
 										<a className='text-rose-100 my-2'>3. </a> Возможно Вам
 										именно сейчас не нужно именно поэтому хочу обратить
 										внимание, что договор оформляется на 5 лет, за это время
@@ -256,14 +256,14 @@ export default function Presentation() {
 							</p>
 
 							<button
-								className='text-blue-300 hover:text-blue-500 duration-300 text-xl'
+								className='text-indigo-300 hover:indigo-400 duration-300 text-xl'
 								onClick={() => setShow4(!show4)}
 							>
 								Пользуюсь картой другого Банка
 							</button>
 							<p className='text-xl'>
 								<p className={`text-blue-100 content ${show4 ? 'show' : ''}`}>
-									<p className='border-y-2 rounded-lg border-violet-300 py-2'>
+									<p className='border-y-[1px] rounded-lg border-indigo-400 py-2'>
 										<a className='text-rose-100 my-2'>1. </a> Это нормально и
 										здорово иметь несколько карт позвольте отмечу, что если бы
 										на рынке не было конкуренции получить выгодное предложение
@@ -271,7 +271,7 @@ export default function Presentation() {
 										дать шанс нашей карте проявить себя, увере а она Вас приятно
 										удивит Что скажите?
 									</p>
-									<p className='border-y-2 rounded-lg my-2 border-violet-300 py-2'>
+									<p className='border-y-[1px] rounded-lindigo border-violet-300 py-2'>
 										<a className='text-rose-100 my-2'>2. </a> Я понимаю, что
 										Ваша карта Вас вполне устраивает вместе с тем 90% Клиентов
 										как и Вы, говорят, что картами уже пользуются и не
@@ -283,7 +283,7 @@ export default function Presentation() {
 										решении начнете пользоваться и будете приятно удивлены. Что
 										скажете?
 									</p>
-									<p className='border-y-2 rounded-lg border-violet-300 py-2'>
+									<p className='border-y-[1px] rounded-lg border-indigo-400 py-2'>
 										Понимаю, сейчас у каждого есть банковские карты в то же
 										время Вы наверняка знаете, что каждая карта уникальна по
 										своему. Например, с КР Халва Вы сможете увеличить свой
@@ -296,7 +296,7 @@ export default function Presentation() {
 							</p>
 
 							<button
-								className='text-blue-300 hover:text-blue-500 duration-300 text-xl'
+								className='text-indigo-300 hover:indigo-400 duration-300 text-xl'
 								onClick={() => setShow2(!show2)}
 							>
 								Не нужна Халва без лимита правильно я понимаю, что необходим был
@@ -305,7 +305,7 @@ export default function Presentation() {
 
 							<p className='text-xl'>
 								<p className={`text-blue-100 content ${show2 ? 'show' : ''}`}>
-									<p className='border-y-2 rounded-lg border-violet-300 py-2'>
+									<p className='border-y-[1px] rounded-lg border-indigo-400 py-2'>
 										<a className='text-rose-100 my-2'>1. </a> Понимаю, что
 										рассчитывали на кредитный лимит в то же время, при активном
 										использовании карты, Банк каждые три месяца по собственной
@@ -314,7 +314,7 @@ export default function Presentation() {
 										полноценную карту для покупок в рассрочку и снятия наличных
 										Что скажете?
 									</p>
-									<p className='border-y-2 rounded-lg my-3 border-violet-300 py-2'>
+									<p className='border-y-[1px] rounded-lindigo border-violet-300 py-2'>
 										<a className='text-rose-100 my-2'>2. </a> Понимаю, что
 										предложение неожиданное вместе с тем хочу отметить, что при
 										помощи данной карты Вы можете получать выгоду и при помощи
@@ -325,7 +325,7 @@ export default function Presentation() {
 										оформления карты. При положительном решении начнете
 										пользоваться и будете приятно удивлены.Что скажете?
 									</p>
-									<p className='border-y-2 rounded-lg my-3 border-violet-300 py-2'>
+									<p className='border-y-[1px] rounded-lindigo border-violet-300 py-2'>
 										{' '}
 										<a className='text-rose-100 my-2'>3. </a> Согласна, что
 										карта с лимитом, на первый взгляд может показаться
@@ -340,7 +340,7 @@ export default function Presentation() {
 							</p>
 
 							<button
-								className='text-blue-300 hover:text-blue-500 duration-300 text-xl'
+								className='text-indigo-300 hover:indigo-400 duration-300 text-xl'
 								onClick={() => setShow3(!show3)}
 							>
 								Для пилота Доставка Халвы сразу -Зачем мне Халва, если мне нужен
@@ -349,7 +349,7 @@ export default function Presentation() {
 
 							<p className='text-xl'>
 								<p className={`text-blue-100 content ${show3 ? 'show' : ''}`}>
-									<p className='border-y-2 rounded-lg border-violet-300 py-2'>
+									<p className='border-y-[1px] rounded-lg border-indigo-400 py-2'>
 										<a className='text-rose-100 my-2'>1. </a>Понимаю, что для
 										Вас сейчас приоритетнее узнать решение по денежному
 										кредитованию и тем не менее, получение карты заранее
@@ -358,14 +358,14 @@ export default function Presentation() {
 										на нее сумму, в случае положительного решения. Согласитесь
 										так удобнее?
 									</p>
-									<p className='border-y-2 rounded-lg my-3 border-violet-300 py-2'>
+									<p className='border-y-[1px] rounded-lindigo border-violet-300 py-2'>
 										<a className='text-rose-100 my-2'>2. </a> Понимаю, что
 										предложение неожиданное вместе с тем хочу отметить, что
 										оформляя карту Вы ничего не теряете, так как она без
 										годового обслуживания и Вы можете воспользоваться картой
 										тогда, когда появятся необходимость Что скажете?
 									</p>
-									<p className='border-y-2 rounded-lg my-3 border-violet-300 py-2'>
+									<p className='border-y-[1px] rounded-lindigo border-violet-300 py-2'>
 										{' '}
 										<a className='text-rose-100 my-2'>3. </a> Соглашусь, что
 										важно выбрать наиболее удобный вариант именно поэтому мы
@@ -378,7 +378,7 @@ export default function Presentation() {
 						</Modal>
 					)}
 					<button
-						className='transition border-indigo-900 border-2 rounded-xl p-3 ease-in-out delay-150 bg-blue-700 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-700 duration-300 my-1'
+						className='transition border-indigo-900 border-[1px] rounded-xl p-3 ease-in-out delay-150 bg-violet-700 hover:-translate-y-1 hover:scale-110 hover:bg-violet-900 duration-300 my-1'
 						onClick={() => setShowModal(3)}
 					>
 						Залог
@@ -388,26 +388,26 @@ export default function Presentation() {
 							<div className='flex flex-col justify-center content-center items-center'>
 								<p className='text-xl'>
 									<button
-										className='text-blue-300 hover:text-blue-500 duration-300'
+										className='text-indigo-300 hover:indigo-400 duration-300'
 										onClick={() => setShow(!show)}
 									>
 										Клиент не согласен под залог собственного авто/недвижимости:
 										3 возражения
 									</button>
 									<p className={`text-blue-100 content ${show ? 'show' : ''}`}>
-										<p className='border-y-2 rounded-lg border-violet-300 py-2'>
+										<p className='border-y-[1px] rounded-lg border-indigo-400 py-2'>
 											<a className='text-rose-100 my-2'>1. </a> тем не менее
 											хочу отметить, что документы остаются у Вас на руках, Вы
 											так же останетесь владельцем своего авто/недвижимости.
 											Заполним заявку?
 										</p>
-										<p className='border-y-2 rounded-lg my-3 border-violet-300 py-2'>
+										<p className='border-y-[1px] rounded-lindigo border-violet-300 py-2'>
 											<a className='text-rose-100 my-2'>2. </a> И.О. предлагаю
 											не принимать поспешных решений, в любом случаи решение за
 											Вами. Сейчас есть возможность закрыть действующие кредиты,
 											кредитные карты на более выгодных условиях. Что скажите?
 										</p>
-										<p className='border-y-2 rounded-lg border-violet-300 py-2'>
+										<p className='border-y-[1px] rounded-lg border-indigo-400 py-2'>
 											<a className='text-rose-100 my-2'>3. </a> И.О. в любом
 											случае Вы ничего не теряете, т.к. заполнение заявки Вас ни
 											к чему не обязывает, Вам позвонят, озвучат условия и Вы
@@ -415,13 +415,13 @@ export default function Presentation() {
 										</p>
 									</p>
 									<button
-										className='text-blue-300 hover:text-blue-500 duration-300'
+										className='text-indigo-300 hover:indigo-400 duration-300'
 										onClick={() => setShow2(!show2)}
 									>
 										Клиент не согласен под залог близких: отработай 1 возражение
 									</button>
 									<p className={`text-blue-100 content ${show2 ? 'show' : ''}`}>
-										<p className='border-y-2 rounded-lg border-violet-300 py-2'>
+										<p className='border-y-[1px] rounded-lg border-indigo-400 py-2'>
 											Согласен, такой вариант вы пока не рассматривали. Именно
 											поэтому уточню: что для автовладельцев сейчас доступно:-
 											во-первых, подать заявку без визита в офис, - во-вторых,
@@ -434,14 +434,14 @@ export default function Presentation() {
 									</p>
 
 									<button
-										className='text-blue-300 hover:text-blue-500 duration-300'
+										className='text-indigo-300 hover:indigo-400 duration-300'
 										onClick={() => setShow3(!show3)}
 									>
 										Клиент не согласен под залог, сумма нужна меньше: отработай
 										1 возражение
 									</button>
 									<p className={`text-blue-100 content ${show3 ? 'show' : ''}`}>
-										<p className='border-y-2 rounded-lg border-violet-300 py-2'>
+										<p className='border-y-[1px] rounded-lg border-indigo-400 py-2'>
 											И.О, сразу видно, что Вы подходите к планированию своих
 											расходов очень подготовлено, При этом, ИО, ведь есть
 											вероятность, что этой суммы может не хватить на реализацию
@@ -459,7 +459,7 @@ export default function Presentation() {
 						</Modal>
 					)}
 					<button
-						className='transition border-indigo-900 border-2 rounded-xl p-3 ease-in-out delay-150 bg-blue-700 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-700 duration-300 my-1'
+						className='transition border-indigo-900 border-[1px] rounded-xl p-3 ease-in-out delay-150 bg-violet-700 hover:-translate-y-1 hover:scale-110 hover:bg-violet-900 duration-300 my-1'
 						onClick={() => setShowModal(4)}
 					>
 						Кр.Доктор
@@ -467,16 +467,16 @@ export default function Presentation() {
 					{showModal === 4 && (
 						<Modal isVisible={showModal === 4} onClose={() => setShowModal(0)}>
 							<div className='text-xl'>
-								<h2 className='text-xl text-blue-300'>
+								<h2 className='text-xl text-indigo-300'>
 									Клиент не соглашается на КД: отработай 2 возражения ( при
 									заявке на Халву, достаточно 1 РсВ с полным обротом)
 								</h2>
-								<p className='border-y-2 rounded-lg border-violet-300 py-2 my-2'>
+								<p className='border-y-[1px] rounded-lg border-indigo-400 py-2 my-2'>
 									<a className='text-rose-100 my-2'>1. </a>Понимаю, что
 									предложение неожиданное, тем не менее Чтобы не терять время,
 									мы можем уже сейчас рассмотреть оформление, что скажите?
 								</p>
-								<p className='border-y-2 rounded-lg border-violet-300 py-2'>
+								<p className='border-y-[1px] rounded-lg border-indigo-400 py-2'>
 									<a className='text-rose-100 my-2'>2. </a>И.О. не спешите
 									отказываться, т.к. сейчас есть возможность пройти данную
 									программу всего за 4.999, более того, есть возможность вернуть
@@ -487,7 +487,7 @@ export default function Presentation() {
 						</Modal>
 					)}
 					<button
-						className='transition border-indigo-900 border-2 rounded-xl p-3 ease-in-out delay-150 bg-blue-700 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-700 duration-300 my-1'
+						className='transition border-indigo-900 border-[1px] rounded-xl p-3 ease-in-out delay-150 bg-violet-700 hover:-translate-y-1 hover:scale-110 hover:bg-violet-900 duration-300 my-1'
 						onClick={() => setShowModal(5)}
 					>
 						Дист.Заявка
@@ -495,32 +495,32 @@ export default function Presentation() {
 					{showModal === 5 && (
 						<Modal isVisible={showModal === 5} onClose={() => setShowModal(0)}>
 							<div className=''>
-								<h2 className='text-xl text-blue-300'>Сам придет в офис</h2>
-								<p className='border-y-2 rounded-lg border-violet-300 py-2 my-2'>
+								<h2 className='text-xl text-indigo-300'>Сам придет в офис</h2>
+								<p className='border-y-[1px] rounded-lg border-indigo-400 py-2 my-2'>
 									<a className='text-rose-100 my-2'>1. </a> Да, увидеть условия
 									наглядно, это важно Именно поэтому я предлагаю Вам оформить
 									анкету сейчас, получить решение, условия кредитования Вам
 									будут направлены, Вы сможете ознакомиться с ними не Выходя из
 									дома Заполняем анкету?
 								</p>
-								<p className='border-y-2 rounded-lg border-violet-300 py-2'>
+								<p className='border-y-[1px] rounded-lg border-indigo-400 py-2'>
 									<a className='text-rose-100 my-2'>2. </a>И.О., понимаю вас,
 									обратиться в отделение Банка для многих привычнее При этом,
 									оформляя дистанционно Вы получаете более Выгодные условия, с
 									которыми Вы сможете ознакомиться до подписания договора. Как
 									вам такое предложение?
 								</p>
-								<p className='border-y-2 rounded-lg border-violet-300 py-2'>
+								<p className='border-y-[1px] rounded-lg border-indigo-400 py-2'>
 									<a className='text-rose-100 my-2'>3. </a>Возможно предложение
 									неожиданное При этом этом заполнение анкеты не к чему вас не
 									обязывает, а дает дополнительную возможность ознакомится с
 									индивидуальными условиями в короткие сроки. Готовы? Продолжим
 								</p>
-								<h2 className='text-xl my-3 text-blue-300'>
+								<h2 className='text-xl my-3 text-indigo-300'>
 									Клиент не согласен на кредит, заявка на Халву: отработай 1
 									возражение
 								</h2>
-								<p className='border-y-2 rounded-lg border-violet-300 py-2'>
+								<p className='border-y-[1px] rounded-lg border-indigo-400 py-2'>
 									Понимаю, что предложение неожиданное, дело в том, что Банк
 									подготовил данное предложение с целью, что бы Вы себя
 									порадовали. Конечно, могут быть сомнения. Тем не менее, не
@@ -532,7 +532,7 @@ export default function Presentation() {
 						</Modal>
 					)}
 					{/* <button
-						className='transition border-indigo-900 border-2 rounded-xl p-3 ease-in-out delay-150 bg-blue-700 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-700 duration-300 my-1'
+						className='transition border-indigo-900 border-[1px] rounded-xl p-3 ease-in-out delay-150 bg-violet-700 hover:-translate-y-1 hover:scale-110 hover:bg-violet-900 duration-300 my-1'
 						onClick={() => setShowModal(6)}
 					>
 						Мобилизация
@@ -544,11 +544,11 @@ export default function Presentation() {
 					)} */}
 				</div>
 			</div>
-			<footer className=' mt-6  border-2 rounded-xl border-blue-400 text-center p-3'>
+			<footer className=' mt-6  border-[1px] rounded-xl border-indigo-400 text-center p-3'>
 				<p>
 					Разработчик: Иван Дмитриевич. Контакты:
 					<a
-						className='hover:text-blue-300 duration-300 px-2'
+						className='hover:text-indigo-300 duration-300 px-2'
 						href='https://t.me/Freak_3112'
 						target='_blank'
 						rel='noreferrer'
@@ -556,7 +556,7 @@ export default function Presentation() {
 						Telegram
 					</a>
 					<a
-						className='hover:text-blue-300 duration-300'
+						className='hover:text-indigo-300 duration-300'
 						href='https://vk.com/fckallworldexpectyou'
 						target='_blank'
 						rel='noreferrer'
@@ -564,7 +564,7 @@ export default function Presentation() {
 						Вконтакте
 					</a>
 					<a
-						className='hover:text-blue-300 duration-300 px-2'
+						className='hover:text-indigo-300 duration-300 px-2'
 						target='_blank'
 						rel='noreferrer'
 						href='https://mail.google.com/mail/u/1/#inbox?compose=CllgCJvnrFxthbvVSqjmbwKlLVMNgjbQCCShwHPKXZTCSLLhsvlmgWrsmCFSzjZPlgLGvThchqB'

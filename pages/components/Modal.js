@@ -23,7 +23,7 @@ const Modal = ({ isVisible, onClose, children }) => {
 					{children}
 					<button
 						className='transition border-indigo-900 border-2 rounded-xl p-3
-					ease-in-out delay-150 bg-blue-700 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-700 duration-300 relative w-[100px] mx-auto my-3'
+					ease-in-out delay-150 bg-violet-700 hover:-translate-y-1 hover:scale-110 hover:bg-violet-900 duration-300 relative w-[100px] mx-auto my-3'
 						onClick={() => onClose()}
 					>
 						Закрыть
